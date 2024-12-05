@@ -4,7 +4,8 @@ import NavBar from "../components/NavBar/NavBar";
 import HeroServices from "../components/HeroServices/HeroServices";
 import Offers from "../components/Sections/Offers/Offers";
 import Specialization from "../components/Sections/Specialization/Specialization";
-import Blogs from "../components/Sections/Blogs/Blogs"
+import Specialists from "../components/Sections/Specialists/Specialists";
+import Blogs from "../components/Sections/Blogs/Blogs";
 
 export default function Home() {
     return (
@@ -37,6 +38,8 @@ export default function Home() {
       <Offers />
 
       <Specialization />
+
+      <Specialists />
 
       <Blogs />
 
