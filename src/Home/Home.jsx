@@ -5,7 +5,10 @@ import HeroServices from "../components/HeroServices/HeroServices";
 import Offers from "../components/Sections/Offers/Offers";
 import Specialization from "../components/Sections/Specialization/Specialization";
 import Specialists from "../components/Sections/Specialists/Specialists";
+import PatientCaring from "../components/Sections/PatientCaring/PatientCaring";
 import Blogs from "../components/Sections/Blogs/Blogs";
+import OurFamilies from "../components/Sections/OurFamilies/OurFamilies";
+import FAQs from "../components/Sections/FAQs/FAQs";
 
 export default function Home() {
     return (
@@ -41,7 +44,13 @@ export default function Home() {
 
       <Specialists />
 
+      <PatientCaring />
+
       <Blogs />
+
+      <OurFamilies />
+
+      <FAQs />
 
     </Box>
 
