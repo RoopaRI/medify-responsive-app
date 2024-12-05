@@ -1,9 +1,11 @@
-import './App.css';
+import {CssBaseline} from '@mui/material';
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      Medify
+    <div>
+      <CssBaseline />
+      <Outlet />
     </div>
   );
 }
