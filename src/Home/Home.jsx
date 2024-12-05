@@ -2,10 +2,14 @@ import { Container, Box, Stack } from "@mui/material";
 import HeroSlider from "../components/HeroSlider/HeroSlider";
 import NavBar from "../components/NavBar/NavBar";
 import HeroServices from "../components/HeroServices/HeroServices";
+import Offers from "../components/Sections/Offers/Offers";
+import Specialization from "../components/Sections/Specialization/Specialization";
+import Blogs from "../components/Sections/Blogs/Blogs"
 
 export default function Home() {
     return (
-        <Box
+        <Box>
+      <Box
         sx={{
           background:
             "linear-gradient(#E7F0FF , rgba(232, 241, 255, 0.47) 90%, #fff 10%)",
@@ -29,6 +33,14 @@ export default function Home() {
           </Stack>
         </Container>
       </Box>
+
+      <Offers />
+
+      <Specialization />
+
+      <Blogs />
+
+    </Box>
 
         
     )
